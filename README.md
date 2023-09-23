@@ -52,6 +52,8 @@ sudo apt-get install libpq-dev
 
 ## Launch the project
 ```bash
+export POSTGRES_USER='youruser'
+export POSTGRES_PASSWORD='yourpassword'
 python3 run.py
 ```
 
