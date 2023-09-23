@@ -20,7 +20,7 @@ source myvenv/bin/activate
 # create the db
 
 CREATE DATABASE todolist;
-GRANT ALL PRIVILEGES ON DATABASE authflask TO youruser;
+GRANT ALL PRIVILEGES ON DATABASE todolist TO youruser;
 
 # select the db
 
